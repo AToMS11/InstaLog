@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="899.0" prefWidth="1352.0" style="-fx-background-color: #F2FFED;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="40.0" layoutY="38.0" text="View log from" />
+      <DatePicker layoutX="155.0" layoutY="33.0" />
+      <TextField layoutX="384.0" layoutY="33.0" prefHeight="31.0" prefWidth="101.0" />
+      <Label layoutX="491.0" layoutY="38.0" text="to" />
+      <DatePicker layoutX="536.0" layoutY="33.0" prefHeight="31.0" prefWidth="218.0" />
+      <TextField layoutX="771.0" layoutY="33.0" prefHeight="31.0" prefWidth="101.0" />
+      <Label layoutX="40.0" layoutY="95.0" text="Enter keyword" />
+      <TextField layoutX="155.0" layoutY="90.0" prefHeight="31.0" prefWidth="716.0" />
+      <Label layoutX="42.0" layoutY="143.0" prefHeight="21.0" prefWidth="113.0" text="Manage source" />
+      <TextField layoutX="155.0" layoutY="138.0" prefHeight="31.0" prefWidth="474.0" />
+      <Button layoutX="645.0" layoutY="138.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="101.0" text="Browse" />
+      <Button layoutX="759.0" layoutY="138.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="113.0" text="Search" />
+      <TextArea layoutX="42.0" layoutY="205.0" prefHeight="683.0" prefWidth="1258.0" />
+   </children>
+</AnchorPane>
